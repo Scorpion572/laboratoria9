@@ -40,11 +40,11 @@ int main(){
 	cin >> trojkat1.c;
 	struct trojkat trojkat2;
 	cout << "podaj dlugosc boku a 2 trojkata " << endl;
-	cin >> trojkat1.a;
+	cin >> trojkat2.a;
 	cout << "podaj dlugosc boku b 2 trojkata " << endl;
-	cin >> trojkat1.b;
+	cin >> trojkat2.b;
 	cout << "podaj dlugosc boku c 2 trojkata " << endl;
-	cin >> trojkat1.c;
+	cin >> trojkat2.c;
 	przepisanie(&trojkat1 , &trojkat2);
 	cout << " nowe boki trojkata 2 " << endl << trojkat2.a << endl << trojkat2.b << endl << trojkat2.c << endl;
 
